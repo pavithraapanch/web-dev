@@ -5,6 +5,9 @@
 .wd-lightgray-color{
     color: #d3d3d3a6;
 }
+.wd-border-lightgray{
+    border-color: #d3d3d3a6;
+}
 .wd-highlighted-blue-color{
     color: rgb(29,161,242);
 }
@@ -16,4 +19,7 @@
 }
 .wd-font-bold{
     font-weight: bold;
+}
+.wd-primary-blue-color{
+    color: #0d6efd;
 }

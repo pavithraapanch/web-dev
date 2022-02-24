@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: Calibri, serif;
+    color: gray;
+}
+a {
+    text-decoration: none !important;
+    color: gray;
+}
+.list-group-item{
+    background-color: black;
+    color: gray;
+    <!--border-color: #d3d3d330;-->
+}
+.input-group-prepend{
+    background-color: black;
+}
+.wd-li-active-override{
+    color: white !important;
+}
+button {
+    color: #000 !important;
+    background-color: #eff3f4 !important;
+    border-color: #6c757d !important;
+}
+div.wd-search-bar > * {
+    background-color: #212327;
+}
+div.wd-search-group, div.wd-search-group > *{
+    background-color: #212327;
+}
+.wd-search-group > .input-group-prepend > .input-group-text{
+    background-color: #212327;
+    color: #60676f !important;
+}
+i{
+    color: #d9d9d9 !important
+}
+.fa-solid{
+    padding-right: 5px;
+}
+.wd-search-settings{
+    font-size: 25px;
+}
+.wd-avatar-img{
+    width: 48px;
+    height: 48px;
+}
+.wd-post-image{
+    width: 90px;
+    height: 80px;
+}
+.wd-bottom-align{
+    position: absolute;
+    bottom:0;
+}
+.wd-follow-container{
+    background-color: #16181c !important;
+    border-radius: 20px;
+}
+.wd-follow-container > .list-group > .list-group-item{
+    background-color: #16181c !important;
+}
+.nav-link{
+    color: gray;
+}
+.nav-tabs > .active {
+    border-bottom: 5px solid #0d6efd;
+}
+.nav-tabs > .active > .nav-link {
+    color: white;
+}
+.wd-nav-tabs > .nav-tabs{
+    border: 0;
+}
+.wd-fa-stack-icon{
+    margin-left: -5px;
+    font-size: 24px;
+}
+.fa-stack{
+    display: inline;
+}
+.wd-font-heading{
+    font-weight: bold;
+    color: white;
+}
+.wd-btn-tuit > .btn {
+    background-color: #0d6efd !important;
+    color: white !important;
+}
