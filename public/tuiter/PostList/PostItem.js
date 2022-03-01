@@ -15,14 +15,14 @@ const PostSummaryItem = (post) => {
                      ${post.title}
                 </div>
                 <div class="wd-bookmark-post-img">
-                    <img src="${post.image}">
-                    <div class="wd-bookmark-img-content">
-                    <div class="wd-font-bold">
-                        ${post.imageContentTitle}
-                    </div>
-                    <div class="wd-lightgray-color">
-                        ${post.imageContent}
-                    </div>
+                    <img src="${post.image}"/>
+                    <div class="wd-bookmark-img-content ${post.imageContentTitle === '' ? "d-none" : ''}">
+                        <div class="wd-font-bold">
+                            ${post.imageContentTitle}
+                        </div>
+                        <div class="wd-lightgray-color">
+                            ${post.imageContent}
+                        </div>
                     </div>
                 </div>
                 <div class="wd-bookmark-buttons-panel">
