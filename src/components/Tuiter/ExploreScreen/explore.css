@@ -18,12 +18,6 @@ div.wd-search-group, div.wd-search-group > *{
 .nav-link{
     color: gray;
 }
-.nav-tabs > .active {
-    border-bottom: 5px solid #0d6efd;
-}
-.nav-tabs > .active > .nav-link {
-    color: white;
-}
 .fa-stack{
     display: inline;
     width: 20px !important;

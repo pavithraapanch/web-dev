@@ -1,7 +1,7 @@
 import React  from "react";
 import PostSummaryList from "../PostSummaryList";
 
-const ExploreComponent = ({}) => {
+const ExploreComponent = () => {
     return(
         <>
            <div className="row">
@@ -20,8 +20,8 @@ const ExploreComponent = ({}) => {
            </div>
            <div className="row my-2 wd-nav-tabs">
                 <ul className="nav nav-tabs">
-                    <li className="nav-item active">
-                        <a className="nav-link" href="#">For You</a>
+                    <li className="nav-item">
+                        <a className="nav-link active" href="#">For You</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Trending</a>
