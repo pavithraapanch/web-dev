@@ -1,0 +1,44 @@
+[
+    {
+        "avatarIcon": "././images/egprofile2.jpg",
+        "userName": "Elon Musk",
+        "handle": "elonmusk",
+        "time": "23h",
+        "title": "Amazing show about @Inspiration4x mission!",
+        "image": "././images/neu.png",
+        "imageContentTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "imageContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "imageLink": "",
+        "comment": "4.2K",
+        "retuit": "3.5K",
+        "likes": "37.5K"
+    },
+    {
+        "avatarIcon": "././images/vader.png",
+        "userName": "Anakyn Skywalker",
+        "handle": "@darth_vader",
+        "time": "23h",
+        "title": "May the force be with you!",
+        "image": "././images/starwars.png",
+        "imageContentTitle": "",
+        "imageContent": "",
+        "imageLink": "",
+        "comment": "965",
+        "retuit": "2.4K",
+        "likes": "4K"
+    },
+    {
+        "avatarIcon": "././images/egprofile1.jpg",
+        "userName": "Robert Zubarin",
+        "handle": "robertzubarin",
+        "time": "23h",
+        "title": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+        "image": "././images/banner.jpg",
+        "imageContentTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "imageContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+        "imageLink": "",
+        "comment": "123",
+        "retuit": "2.4K",
+        "likes": "5K"
+    }
+]

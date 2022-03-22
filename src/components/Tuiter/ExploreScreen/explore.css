@@ -1,0 +1,51 @@
+body{
+    font-family: Calibri, serif;
+}
+div.wd-search-bar > * {
+    background-color: white;
+}
+div.wd-search-group, div.wd-search-group > *{
+    background-color: white;
+}
+.wd-search-group > .input-group-prepend > .input-group-text{
+    background-color: white;
+    color: #60676f !important;
+}
+.wd-search-settings > a {
+    color: #2a9fd6 !important;
+    font-size: 25px;
+}
+.nav-link{
+    color: gray;
+}
+.nav-tabs > .active {
+    border-bottom: 5px solid #0d6efd;
+}
+.nav-tabs > .active > .nav-link {
+    color: white;
+}
+.fa-stack{
+    display: inline;
+    width: 20px !important;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+.wd-lightgray-color{
+    color: #d3d3d3a6 !important;
+}
+.wd-post-image{
+    width: 97px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+.wd-fa-stack-icon{
+    margin-left: -5px;
+    font-size: 24px;
+}
+.wd-bottom-align{
+    position: absolute;
+    bottom:0;
+}
