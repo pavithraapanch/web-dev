@@ -3,6 +3,7 @@ import './home.css';
 import NavigationSidebar from "../NavigationSideBar";
 import PostSummaryList from "../PostSummaryList";
 import PostList from "../PostList";
+import TuitList from "../tuit-list";
 
 const HomeScreen = () => {
     return(
@@ -12,7 +13,7 @@ const HomeScreen = () => {
             </div>
             <div className="col-sm-10 col-md-10 col-lg-7 col-xl-7 col-xxl-7 pb-3"
                  style={{"position": "relative"}}>
-                <PostList/>
+                <TuitList/>
             </div>
             <div className="col-lg-4 col-xl-3 col-xxl-3 d-none d-lg-block">
                 <PostSummaryList/>

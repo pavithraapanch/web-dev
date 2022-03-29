@@ -101,3 +101,12 @@ a {
 .wd-red-color{
     color: red !important;
 }
+.wd-text-whats{
+    background-color: black;
+    width: 100%;
+    height: 83px;
+    color: white;
+}
+.wd-delete-btn{
+    align-content: flex-end;
+}
