@@ -32,7 +32,7 @@ const ProfileScreen = ({}) => {
                 </div>
                 <div className="row">
                     <div className="d-grid d-md-flex justify-content-md-end">
-                        <Link to="/tuiter/edit-profile"><button type="button" className="btn btn-outline-dark rounded-pill">
+                        <Link to="/tuiter/edit-profile"><button type="button" className="btn btn-outline-dark rounded-pill text-white">
                             <b>Edit Profile</b>
                         </button>
                         </Link>
@@ -41,14 +41,14 @@ const ProfileScreen = ({}) => {
                 <div className="row ps-4 pt-3">
                     <div className="row"><h4 className="p-0"><b>{profile.name}</b></h4></div>
                     <div className="row">@{profile.handle}</div>
-                    <div className="row">{profile.bio}</div>
+                    <div className="row text-white">{profile.bio}</div>
                     <div className="wd-profile-details-panel">
                         <div className="wd-profile-item">
-                            <p className="wd-profile-item-icon"><a href="#"><i className="wd-lightgray-color fa-regular fa-compass"></i></a></p>
+                            <p className="wd-profile-item-icon"><a href="#"><i className="fa-regular fa-compass"></i></a></p>
                             <p>{profile.location}</p>
                         </div>
                         <div className="wd-profile-item">
-                            <p className="wd-profile-item-icon"><a href="#"><i className="wd-lightgray-color fa-regular fa-ice-cream"></i></a></p>
+                            <p className="wd-profile-item-icon"><a href="#"><i className="fa-solid fa-cake-candles"></i></a></p>
                             <p>{profile.dateOfBirth}</p>
                         </div>
                         <div className="wd-profile-item">
@@ -58,11 +58,11 @@ const ProfileScreen = ({}) => {
                     </div>
                     <div className="wd-follower-details-panel">
                         <div className="wd-profile-item">
-                            <p className="wd-profile-item-icon">{profile.followingCount}</p>
+                            <p className="wd-profile-item-icon text-white"><b>{profile.followingCount}</b></p>
                             <p className="wd-profile-item-icon">Following</p>
                         </div>
                         <div className="wd-profile-item">
-                            <p className="wd-profile-item-icon">{profile.followersCount}</p>
+                            <p className="wd-profile-item-icon text-white"><b>{profile.followersCount}</b></p>
                             <p className="wd-profile-item-icon">Followers</p>
                         </div>
                     </div>

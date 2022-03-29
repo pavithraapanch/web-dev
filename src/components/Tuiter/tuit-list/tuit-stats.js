@@ -24,12 +24,12 @@ const TuitStats = ({tuit}) => {
                         <span onClick={likeTuit}>
                             {
                                 tuit.liked &&
-                                <i className="fa-solid fa-heart"
+                                <i className="fa-solid fa-heart pe-1"
                                    style={{color: 'red'}}></i>
                             }
                             {
                                 !tuit.liked &&
-                                <i className="fa-solid fa-heart"></i>
+                                <i className="fa-solid fa-heart pe-1"></i>
                             }
                             {tuit.stats && tuit.stats.likes}
                         </span>

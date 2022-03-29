@@ -31,7 +31,7 @@ const EditProfileScreen = ({}) => {
                         </div>
                     </div>
                     <div className="col-sm-2 col-md-2 col-lg-2">
-                        <button type="button" className="btn btn-outline-dark rounded-pill" onClick={editProfileClickHandler}>
+                        <button type="button" className="btn btn-outline-dark rounded-pill text-white" onClick={editProfileClickHandler}>
                             Save
                         </button>
                     </div>
