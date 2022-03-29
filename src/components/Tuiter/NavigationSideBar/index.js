@@ -15,7 +15,7 @@ const NavigationSidebar = (
                 <li className="list-group-item"><i className="fa-solid fa-envelope"></i><a className="d-none d-xl-inline" href="../messages.html"> Messages</a></li>
                 <li className="list-group-item"><i className="fa-solid fa-bookmark"></i><a className="d-none d-xl-inline" href="../bookmarks.html"> Bookmarks</a></li>
                 <li className="list-group-item"><i className="fa-solid fa-list"></i><a className="d-none d-xl-inline" href="../lists.html"> Lists</a></li>
-                <li className="list-group-item"><i className="fa-solid fa-user"></i><a className="d-none d-xl-inline" href="../profile.html"> Profile</a></li>
+                <Link to="/tuiter/profile"><li className="list-group-item"><i className="fa-solid fa-user"></i><a className="d-none d-xl-inline" href="../profile.html"> Profile</a></li></Link>
                 <li className="list-group-item">
                     <span className="fa-stack p-0">
                         <i className="fa-regular fa-circle fa-stack-1x wd-fa-stack-icon"></i>
