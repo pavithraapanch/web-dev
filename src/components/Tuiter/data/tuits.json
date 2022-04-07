@@ -6,6 +6,7 @@
       "username": "ReactJS"
     },
     "liked": true,
+    "disliked": false,
     "verified": false,
     "handle": "ReactJS",
     "time": "2h",
@@ -19,7 +20,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 23
     }
   },
   {
@@ -29,6 +31,7 @@
       "username": "SpaceX"
     },
     "liked": false,
+    "disliked": false,
     "verified": false,
     "handle": "spacex",
     "title": "",
@@ -43,7 +46,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 123
     }
   },
   {
@@ -53,6 +57,7 @@
       "username": "Scott Manley"
     },
     "liked": true,
+    "disliked": true,
     "verified": true,
     "handle": "DJSnM",
     "postedOn": "2020-12-10",
@@ -65,7 +70,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 22
     }
   },
   {
@@ -75,6 +81,7 @@
       "username": "jQuery"
     },
     "liked": false,
+    "disliked": true,
     "verified": false,
     "handle": "jQuery",
     "title": "jQuery",
@@ -86,7 +93,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 232
     }
   },
   {
@@ -96,6 +104,7 @@
       "username": "NodeJS"
     },
     "liked": true,
+    "disliked": false,
     "verified": true,
     "handle": "NodeJS",
     "title": "",
@@ -107,7 +116,8 @@
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 234
     }
   }
 ]
