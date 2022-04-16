@@ -8,7 +8,6 @@ export const DELETE_TUIT = 'DELETE_TUIT';
 export const createTuit = async (dispatch, tuit) => {
     const tuitToInsert = {
         tuit: tuit.tuit,
-        _id: (new Date()).getTime() + '',
         postedBy: {
             "username": "ReduxUser"
         },
@@ -19,7 +18,7 @@ export const createTuit = async (dispatch, tuit) => {
             replies: 333
         }
     }
-    const newTuit = await service.createTuit(tuitToInsert);
+    const newTuit = await service.createTuit(tuit);
     dispatch({
         type: CREATE_TUIT,
         newTuit
@@ -45,7 +44,7 @@ export const deleteTuit = async (dispatch, tuit) => {
     dispatch({
         type: DELETE_TUIT,
         tuit
-    })
+    });
 }
 
 
